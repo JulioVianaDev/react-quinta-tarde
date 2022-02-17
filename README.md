@@ -14,4 +14,12 @@ https://nodejs.org/en/download/
 
 # 3 
 
+``` npm install --save styled-components```
+
+# 4 
+
+```npm install react-router-dom@6```
+
+# 5
+
 ```npm start```

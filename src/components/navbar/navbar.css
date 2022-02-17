@@ -1,5 +1,7 @@
 .navbar-site{
-    background-color: rgb(183, 177, 243);
+    position: fixed;
+       background-color: rgba(0, 0, 0, 0.411);
+       width: 100%;
 }
 .Tomate{
     color:rgb(52, 84, 173);
