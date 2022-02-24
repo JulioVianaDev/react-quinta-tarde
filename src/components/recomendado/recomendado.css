@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
 .centro{
     padding-top: 10%;
     display: flex;
@@ -15,6 +17,7 @@ div.img {
     border: 1px solid #ccc;
     float: left;
     width: 612px;
+    height: 256px;
 }
 
 div.img:hover {
@@ -23,10 +26,14 @@ div.img:hover {
 
 div.img img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 div.desc {
+    font-family: 'Redressed', cursive;
     padding: 15px;
+    font-size: 2rem;
     text-align: center;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(126, 12, 88, 0.782);
 }

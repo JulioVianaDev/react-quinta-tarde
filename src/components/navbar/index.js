@@ -16,7 +16,7 @@ function Navbar (){
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Top Animes</a>
+                    <Link to="/top" class="Tomate">Top 10</Link>
                     </li>
                     <li class="nav-item">
                     <Link to="recomendado" class="Tomate">Indicações</Link>
