@@ -27,7 +27,7 @@ export const Contato = () => {
                 <label>Whatsapp</label> <br/>
                 <input type="text" name="whats" /> <br/>
                 <label>Message</label> <br/>
-                <textarea name="message" cols="22" rows="4" /> <br/>
+                <textarea name="message" cols="22" rows="5" /> <br/>
                 <input type="submit" value="Send" /> <br/>
                 </form>
             </center>
