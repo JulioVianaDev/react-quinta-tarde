@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import vi from '../imagens/vi.jpg';
 import './recomendado.css';
 import onepiece from '../imagens/onepiece.jpg';
+import vanitas from '../imagens/vanitas.jpg';
+import bleach from '../imagens/bleach.jpg';
 
 const Recomendado = ()=>{
     return(
@@ -9,33 +11,29 @@ const Recomendado = ()=>{
             <div class="centro">
                                 
                 <div class="img">
-                <a target="_blank" href="fjords.jpg">
-                    
-                <ImagemVi src={vi}/>    
-                    
-                </a>
+                    <ImagemVi src={vi}/>    
                 <div class="desc">Arcane Netflix</div>
                 </div>
 
                 <div class="img">
-                <a target="_blank" href="forest.jpg">
-                    <img src="forest.jpg" alt="Forest" width="300" height="200"/>
-                </a>
+               
+                    <ImagemVi src={onepiece}/>    
+                
                 <div class="desc">One Piece</div>
                 </div>
 
                 <div class="img">
-                <a target="_blank" href="lights.jpg">
-                    <img src="lights.jpg" alt="Northern Lights" width="300" height="200"/>
-                </a>
-                <div class="desc">Add a description of the image here</div>
+               
+                    <ImagemVi src={bleach}/>    
+                
+                <div class="desc">Bleach</div>
                 </div>
 
                 <div class="img">
-                <a target="_blank" href="mountains.jpg">
-                    <img src="mountains.jpg" alt="Mountains" width="300" height="200"/>
-                </a>
-                <div class="desc">Add a description of the image here</div>
+               
+                    <ImagemVi src={vanitas}/>        
+                
+                <div class="desc">Vanitas no Carte</div>
                 </div>
             </div>
         </>
